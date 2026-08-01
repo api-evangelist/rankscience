@@ -1,8 +1,26 @@
 aid: rankscience
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rankscience.png
 name: RankScience
-description: 'RankScience is a company surfaced as a portfolio company of initialized-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: enterprise-saas. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'RankScience is a San Francisco based SEO and AI-visibility agency (RankScience
+  LLC) that helps startups, SaaS companies, and enterprises grow search traffic through
+  foundational and technical SEO, strategic content, and link building, alongside next-generation
+  AI-search optimization services (Generative Engine Optimization, Large Language Model
+  Optimization, and Answer Engine Optimization) for platforms like ChatGPT, Claude,
+  and Perplexity. It began as a YC-backed SEO A/B testing platform and now operates
+  as a services agency. RankScience does not currently publish a public developer API,
+  SDKs, or API documentation; this profile captures its public web and AI-discovery
+  surface (a published /llms.txt and domain security posture).'
 url: https://raw.githubusercontent.com/api-evangelist/rankscience/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Enterprise Saas
+- SEO
+- AI Visibility
+- Generative Engine Optimization
+- Content Marketing
+- Marketing Agency
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,22 @@ maintainers:
 common:
 - type: Website
   url: https://rankscience.com/
+- type: Blog
+  url: https://www.rankscience.com/blog
+- type: Support
+  url: https://www.rankscience.com/contact-us
+- type: TermsOfService
+  url: https://www.rankscience.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.rankscience.com/privacy
+- type: LLMsTxt
+  url: llms/rankscience-llms.txt
+- type: WellKnown
+  url: well-known/rankscience-well-known.yml
+- type: DomainSecurity
+  url: security/rankscience-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

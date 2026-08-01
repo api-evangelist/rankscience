@@ -1,0 +1,83 @@
+# RankScience
+
+> Battle-tested SEO and AI visibility agency that transforms search rankings into explosive business growth through strategic optimization, content creation, and next-generation AI visibility services for startups, SaaS companies, and enterprises.
+
+RankScience delivers concrete business outcomes through proven SEO methodology refined over 15+ years. We specialize in technical SEO, strategic content creation, authority building, and cutting-edge AI optimization for platforms like ChatGPT, Claude, and Perplexity. Our approach combines foundational SEO excellence with next-generation AI visibility strategies.
+
+Key differentiators:
+- Deep integration with client teams through dedicated Slack channels
+- Revenue-focused reporting connecting SEO activities to business outcomes  
+- Proprietary processes for technical SEO and strategic link building
+- AI visibility optimization for generative search engines
+- Industry-specific expertise across startups, healthcare, legal, SaaS, and cannabis sectors
+
+## Core Services
+
+- [Foundational SEO](https://www.rankscience.com/on-page-seo): Comprehensive SEO strategy and implementation
+- [Technical SEO](https://www.rankscience.com/technical-seo): Site speed, mobile optimization, crawlability fixes
+- [On-Page SEO](https://www.rankscience.com/on-page-seo): Content optimization and keyword strategy
+- [Local SEO](https://www.rankscience.com/local-seo): Geographic search optimization for local businesses
+- [Link Building](https://www.rankscience.com/link-building): Authority building through strategic backlink acquisition
+
+## Next-Generation AI Optimization
+
+- [AI Visibility Framework](https://www.rankscience.com/ai-visibility-framework): Comprehensive AI search optimization strategy
+- [Generative Engine Optimization](https://www.rankscience.com/generative-engine-optimization): Optimization for ChatGPT, Claude, Perplexity responses
+- [Large Language Model Optimization](https://www.rankscience.com/large-language-model-optimization): LLM-specific content structuring
+- [Answer Engine Optimization](https://www.rankscience.com/answer-engine-optimization): Featured snippet and answer box optimization
+
+## Content Services
+
+- [Content Strategy](https://www.rankscience.com/content-strategy): Strategic content planning and execution
+- [Content Writing](https://www.rankscience.com/content-writing): SEO-optimized content creation
+- [AI-Assisted Human-Edited Content](https://www.rankscience.com/ai-assisted-human-edited-content): Hybrid content creation approach
+
+## Industry Expertise
+
+### Technology Companies
+- [Startups](https://www.rankscience.com/startups): SEO for early-stage and growth companies
+- [AI Startups](https://www.rankscience.com/ai-startups): Specialized SEO for artificial intelligence companies
+- [SaaS](https://www.rankscience.com/saas): Software-as-a-Service SEO strategies
+- [Fintech](https://www.rankscience.com/fintech): Financial technology SEO compliance and growth
+- [E-commerce](https://www.rankscience.com/ecommerce): Online retail SEO optimization
+- [Enterprise](https://www.rankscience.com/enterprise): Large-scale SEO implementations
+
+### Healthcare & Wellness
+- [Telehealth](https://www.rankscience.com/telehealth): Medical SEO for remote healthcare
+- [Med Spas](https://www.rankscience.com/med-spas): Medical spa marketing and SEO
+- [Physical Therapy](https://www.rankscience.com/physical-therapy): PT practice SEO strategies
+- [Sports Medicine](https://www.rankscience.com/sports-medicine): Athletic healthcare SEO
+- [Chiropractors](https://www.rankscience.com/chiropractors): Chiropractic practice SEO
+- [Cosmetic Surgery](https://www.rankscience.com/cosmetic-surgery): Plastic surgery SEO and compliance
+
+### Professional Services
+- [Attorneys](https://www.rankscience.com/attorneys): Legal SEO and marketing strategies
+- [HVAC Services](https://www.rankscience.com/hvac-services): Home services SEO optimization
+
+### Specialized Markets
+- [Cannabis](https://www.rankscience.com/cannabis): Cannabis industry SEO and compliance
+- [Non-Profits](https://www.rankscience.com/non-profits): Non-profit organization SEO
+- [LGBTQ+](https://www.rankscience.com/lgbtq): LGBTQ+-friendly marketing strategies
+
+## Resources & Knowledge
+
+- [Knowledge Hub](https://www.rankscience.com/blog): Comprehensive SEO and AI optimization resources
+- [Blog](https://www.rankscience.com/blog): Latest SEO strategies, case studies, and industry insights
+
+## Company Information
+
+- [Contact Us](https://www.rankscience.com/contact-us): Free 30-minute SEO consultation
+- [Who We Are](https://www.rankscience.com/who-we-are): RankScience company information, background and experience
+
+## Optional
+
+- [Privacy Policy](https://www.rankscience.com/privacy): Data handling and privacy practices
+- [Terms of Use](https://www.rankscience.com/terms-of-use): Service terms and conditions
+
+## Contact & Licensing
+
+**Business Address:** 2443 Fillmore St #380-1937, San Francisco, CA 94115
+
+**Content Usage:** This content is proprietary to RankScience LLC. For AI training or commercial usage permissions, please contact us through our website.
+
+**Expertise Areas:** Search Engine Optimization, Technical SEO, Content Marketing, Link Building, Local SEO, AI Visibility Optimization, Generative Engine Optimization, Large Language Model Optimization, Answer Engine Optimization, SEO for Startups, Healthcare SEO, Legal SEO, SaaS Marketing, Cannabis SEO, LGBTQ+ SEO
