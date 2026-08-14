@@ -30,7 +30,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-08-13'
 tags:
 - Company
 - Enterprise Saas
@@ -55,15 +55,39 @@ common:
 - type: TermsOfService
   url: https://www.rankscience.com/terms-of-use
 - type: PrivacyPolicy
-  url: https://www.rankscience.com/privacy
+  url: https://www.rankscience.com/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/rankscience
 - type: LLMsTxt
   url: llms/rankscience-llms.txt
-- type: WellKnown
-  url: well-known/rankscience-well-known.yml
 - type: DomainSecurity
   url: security/rankscience-domain-security.yml
+- type: Lifecycle
+  url: lifecycle/rankscience-lifecycle.yml
+- type: Plans
+  url: plans/rankscience-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/rankscience-rate-limits.yml
 x-enrichment:
-  date: '2026-07-20'
-  status: enriched
-  artifacts_added: 3
+  date: '2026-08-13'
+  status: minimal
+  artifacts_added: 4
   pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    RankScience is now an SEO/AI-visibility services agency on a Webflow marketing site
+    with no developer program; the platform-era hosts api.rankscience.com and
+    dashboard.rankscience.com still resolve to Cloudflare but return 530 origin errors,
+    and status.rankscience.com redirects to an inactive Statuspage.
+  evidence:
+  - url: https://api.rankscience.com/openapi.json
+    status: 530
+  - url: https://www.rankscience.com/openapi.json
+    status: 404
+  - url: https://www.rankscience.com/.well-known/agent-card.json
+    status: 404
+  - url: https://status.rankscience.com/
+    status: 200
+  checked: '2026-08-13'
