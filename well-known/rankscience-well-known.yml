@@ -1,7 +1,7 @@
-generated: '2026-07-20'
+generated: '2026-08-13'
 method: probed
-source: live probes of https://www.rankscience.com/.well-known/*
-host: www.rankscience.com
+source: live probes of https://www.rankscience.com/.well-known/* and the legacy api./dashboard. hosts
+host: https://www.rankscience.com
 endpoints:
 - path: /.well-known/security.txt
   status: 404
@@ -12,10 +12,36 @@ endpoints:
 - path: /.well-known/oauth-authorization-server
   status: 404
   file: null
+- path: /.well-known/oauth-protected-resource
+  status: 404
+  file: null
 - path: /.well-known/api-catalog
   status: 404
   file: null
 - path: /.well-known/ai-plugin.json
   status: 404
   file: null
-notes: No .well-known endpoints published. A root /llms.txt (200) is captured separately in llms/.
+- path: /.well-known/mcp.json
+  status: 404
+  file: null
+- path: /.well-known/agent-card.json
+  status: 404
+  file: null
+- path: /.well-known/agent.json
+  status: 404
+  file: null
+other_hosts:
+- host: https://api.rankscience.com
+  status: 530
+  note: DNS resolves to Cloudflare (172.67.197.209 / 104.21.68.184) but the origin is
+    unreachable; every path returns Cloudflare 530. No .well-known surface can be probed.
+- host: https://dashboard.rankscience.com
+  status: 530
+  note: Same Cloudflare origin-error condition as api.rankscience.com.
+notes: >-
+  No .well-known document is served on any RankScience host. The Webflow site answers
+  every /.well-known/* path with an 88-byte "Invalid .well-known request" HTML page under
+  HTTP 404, so there is no soft-200 false positive here. A root /llms.txt IS served (200,
+  text/plain) and is captured verbatim in llms/rankscience-llms.txt. Because every path
+  404s, NO WellKnown or SecurityTxt pointer is emitted in apis.yml — this file records a
+  verified absence, not a presence.

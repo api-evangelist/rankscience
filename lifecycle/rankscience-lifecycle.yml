@@ -1,0 +1,49 @@
+generated: '2026-08-13'
+method: probed
+source: live DNS + HTTP probes of the RankScience host set, 2026-08-13
+versioning: null
+deprecation: null
+sla: null
+status_page:
+  url: https://status.rankscience.com/
+  live: false
+  provider: Atlassian Statuspage
+  note: >-
+    status.rankscience.com is CNAMEd to 4672lgbq98xm.stspg-customer.com (Atlassian
+    Statuspage) and redirects to https://rankscience.statuspage.io/inactive — the page
+    is registered but INACTIVE. No StatusPage pointer is emitted in apis.yml, because an
+    inactive status page is not an operational-transparency surface.
+deprecated_operations: []
+platform_history:
+  summary: >-
+    RankScience launched as a Y Combinator-backed SEO A/B testing PLATFORM and now
+    operates as a services agency. The platform-era developer infrastructure is
+    decommissioned: the API, dashboard and app hostnames still resolve in DNS but no
+    origin answers on any of them, and the status page has been switched off. This is
+    recorded as evidence of a retired API surface, not as a claim that an API exists.
+  probes:
+  - host: api.rankscience.com
+    dns: [172.67.197.209, 104.21.68.184]
+    http_status: 530
+    note: Resolves to Cloudflare; origin unreachable (Cloudflare 530) on /, /openapi.json,
+      /v1 and /graphql alike.
+  - host: dashboard.rankscience.com
+    dns: [172.67.197.209, 104.21.68.184]
+    http_status: 530
+    note: Same Cloudflare origin-error condition.
+  - host: app.rankscience.com
+    dns: [54.241.223.170]
+    http_status: null
+    note: Legacy AWS EC2 address; TCP connection fails on both 443 and 80 (curl exit 28,
+      no listener).
+  - host: docs.rankscience.com
+    dns: []
+    http_status: null
+    note: Does not resolve.
+  - host: developer.rankscience.com
+    dns: []
+    http_status: null
+    note: Does not resolve.
+notes: >-
+  No versioning policy, no deprecation policy, no Sunset/Deprecation header contract and
+  no SLA are published, because there is no live API to attach them to.

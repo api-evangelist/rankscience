@@ -1,0 +1,38 @@
+generated: '2026-08-13'
+method: searched
+source: live registry lookups (npm, PyPI, RubyGems, crates.io, Packagist) + github.com/rankscience
+package_count: 0
+packages: []
+registry_probes:
+- registry: npm
+  query: https://registry.npmjs.org/rankscience
+  status: 404
+- registry: npm-search
+  query: https://registry.npmjs.org/-/v1/search?text=rankscience
+  status: 200
+  results: 0
+- registry: pypi
+  query: https://pypi.org/pypi/rankscience/json
+  status: 404
+- registry: rubygems
+  query: https://rubygems.org/api/v1/gems/rankscience.json
+  status: 404
+- registry: crates.io
+  query: https://crates.io/api/v1/crates/rankscience
+  status: 403
+  note: crates.io rejects unauthenticated scripted requests; no RankScience crate is
+    referenced anywhere in the provider's own docs either.
+- registry: packagist
+  query: https://repo.packagist.org/packages/rankscience/rankscience.json
+  status: 404
+source_repos:
+- url: https://github.com/rankscience
+  status: 200
+  public_repos: 0
+  note: The GitHub organization exists and is verifiably RankScience's (name "RankScience",
+    location San Francisco, blog https://www.rankscience.com/), but it publishes zero
+    public repositories and zero public members.
+notes: >-
+  RankScience ships no first-party client library on any public registry. No SDKs pointer
+  is emitted in apis.yml, and no Packages pointer either — this file records a verified
+  negative sweep, not a package catalog.

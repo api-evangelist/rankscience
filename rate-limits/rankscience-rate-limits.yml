@@ -1,0 +1,18 @@
+generated: '2026-08-13'
+method: searched
+source: https://www.rankscience.com/ + live probes of api./dashboard./app.rankscience.com
+limit_count: 0
+limits: []
+headers: []
+evidence:
+- url: https://api.rankscience.com/
+  status: 530
+  note: Cloudflare origin-unreachable. No live API responds, so no rate-limit headers
+    can be observed.
+- url: https://www.rankscience.com/sitemap.xml
+  status: 200
+  note: No developer, docs, or API-reference page exists in the sitemap in which limits
+    could be documented.
+notes: >-
+  RankScience publishes no public API, therefore no rate limits, no throttling policy and
+  no RateLimit-*/Retry-After signaling. Recorded as a verified zero rather than omitted.

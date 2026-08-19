@@ -1,0 +1,24 @@
+generated: '2026-08-13'
+method: searched
+source: https://www.rankscience.com/ (site nav, sitemap.xml, /contact-us)
+plan_count: 0
+plans: []
+model: engagement-quote
+currency: null
+evidence:
+- url: https://www.rankscience.com/pricing
+  status: 200
+  note: Not a pricing page — the request 302s through to https://www.rankscience.com/
+    (identical 64,638-byte homepage, title "Expert SEO and AI Search Agency Turns
+    Rankings Into Revenue"). RankScience publishes no /pricing page.
+- url: https://www.rankscience.com/sitemap.xml
+  status: 200
+  note: 78 URLs, none of which is a pricing, plans, or packages page.
+- url: https://www.rankscience.com/contact-us
+  status: 200
+  note: The commercial call to action is a free 30-minute consultation form, not a
+    self-serve plan. Engagements are quoted.
+notes: >-
+  RankScience is a services agency, not a subscription product, and publishes no tiers,
+  prices, quotas, or overages anywhere on its public site. An honest zero — recorded
+  rather than omitted so the absence is legible as a measurement.
